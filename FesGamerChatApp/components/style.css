@@ -1,0 +1,277 @@
+#divChat ul li{
+  list-style: none;
+  font-size: 19px;
+
+}
+#divChatInp{
+    width: 670px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 20px;
+   
+}
+#sendMessageBtn{
+    background-color: black;
+    color: red;
+    height: 40px;
+    width: 7%;
+    border: none; 
+    margin-left: 6px;
+    margin-bottom: 100px;
+
+}
+#divChatSend{
+  position: relative;
+  left: 420px;
+}
+
+
+
+#divChat{
+  height: 300px;
+  width:60%;
+  background-color: black;
+  color: white;
+  border: 4px solid red;
+  border-radius: 15px;
+  position: sticky;
+  left: 420px;
+  /* margin-left: 530px; */
+  margin-top: 40px;
+  overflow: scroll;
+/* display: inline-flex; */
+}
+
+
+div.divSearchUser{
+  position: relative;
+  top: 70px;
+  margin-left: 30px;
+ 
+  display: inline-block;
+
+}
+.con1{ 
+  display: flex;
+  margin-top: 75px;
+}
+/* color: white;
+border: 4px solid red;
+border-radius: 15px;
+background-color: black; */
+
+#divAllUser{
+
+  /* padding-top: 80px; */
+  overflow: scroll;
+  height: 350px;
+  color: white;
+}
+#divAllUser ul {
+  list-style: none;
+}
+#divAllUser ul li{
+  background-color: black;
+  border: 3px solid red;
+  width: 230px;
+  padding: 6px;
+
+}
+#divAllUser ul li button{
+  color: white;
+}
+
+.btn1{
+  background-color: black;
+    color: red;
+    height: 30px;
+
+    border: none; 
+}
+.btn2{
+  background-color: black;
+    color: red;
+    height: 40px;
+    width: 7%;
+    border: none; 
+    /* position: absolute;
+    top: 15px;
+    right: 0; */
+}
+
+body{
+  background-color:    rgb(240, 222, 209);
+
+}
+/* ////////////////////////////////////////////////////////// */
+
+#bodyIndex{
+  background-color:    rgb(240, 222, 209);
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 120px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  position: sticky; 
+  bottom: 500px;
+ left: 30px;  
+} 
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  width: 20%;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 500px; 
+  left: 30px; 
+}
+
+.feslogin p{
+  width: 13330%;
+}
+.feslogin label{
+  width: 13330%;
+}
+.feslogin #label2{
+  position: relative;
+  right: 27px;
+}
+.loginContent {
+  padding-top: 70px;
+  width: 20%;
+  margin: 0 auto;
+}
+
+.btn3{
+  border: none;
+  border-radius: 3px;
+  background-color: black;
+  color: red;
+  width: 90%;
+  margin-bottom: 10px;
+}
+.usernameLabel{
+  position: relative;
+  right: 32px;
+}
+h1{
+  padding-top: 20px;
+}
+h3{
+  position: relative;
+  font-family: 25px;
+  top: 50px;
+}
+
+input{
+  border: none;
+  padding: 4px;
+  width: 210px;
+  border-radius: 5px;
+}
+
+button{ 
+  border-radius: 6px;
+}
+
+button :hover{
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+
+}
+/* //////////////////////////////////////////////////////////////////////// */
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
